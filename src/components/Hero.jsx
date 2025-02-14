@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import profilePic from "/assets/fotostudio.png";
-import Resume from "../pdf/Irsyad-CV.pdf";
+import Resume from "../pdf/CV-MohamadIrsyad.pdf";
 
 const words = ["Mohamad Irsyad", "Web Developer"];
 
@@ -74,7 +74,7 @@ const Hero = () => {
             |
           </motion.span>
         </h1>
-        <a href={Resume} download="Irsyad-CV.pdf">
+        <a href={Resume} download="CV-MohamadIrsyad.pdf">
           <motion.button
             className="mt-6 px-8 py-3 bg-gray-700 text-white rounded-lg shadow-lg hover:bg-gray-800 hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             whileHover={{ scale: 1.05 }}
